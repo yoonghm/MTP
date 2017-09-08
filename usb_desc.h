@@ -653,14 +653,14 @@ let me know?  http://forum.pjrc.com/forums/4-Suggestions-amp-Bug-Reports
   #define JOYSTICK_SIZE         12  //  12 = normal, 64 = extreme joystick
   #define JOYSTICK_INTERVAL     1
 /*
-  #define MTP_INTERFACE   8 // MTP Disk
-  #define MTP_TX_ENDPOINT 11
-  #define MTP_TX_SIZE   64
-  #define MTP_RX_ENDPOINT 3
-  #define MTP_RX_SIZE   64
-  #define MTP_EVENT_ENDPOINT  11
-  #define MTP_EVENT_SIZE  16
-  #define MTP_EVENT_INTERVAL  10
+  #define MTP_INTERFACE         8 // MTP Disk
+  #define MTP_TX_ENDPOINT       11
+  #define MTP_TX_SIZE           64
+  #define MTP_RX_ENDPOINT       3
+  #define MTP_RX_SIZE           64
+  #define MTP_EVENT_ENDPOINT    11
+  #define MTP_EVENT_SIZE        16
+  #define MTP_EVENT_INTERVAL    10
 */
   #define KEYMEDIA_INTERFACE    8 // Keyboard Media Keys
   #define KEYMEDIA_ENDPOINT     12
