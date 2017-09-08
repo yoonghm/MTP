@@ -24,9 +24,8 @@
 #ifndef MTP_H
 #define MTP_H
 
-#if !defined(USB_MTPDISK) && !defined(USB_MTPDISK_SERIAL)
+#if !defined(USB_MTPDISK)
 #error "You need to select USB Type: 'MTP Disk (Experimental)'"
-#error "or 'MTP Disk + Serial (Experimental)'"
 #endif
 
 #include <Arduino.h>
