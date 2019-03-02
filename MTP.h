@@ -629,7 +629,7 @@ private:
       while (pos < size) {
         get_buffer();
         uint32_t avail = sizeof(data_buffer_->buf) - data_buffer_->len;
-        uint32_t to_copy = min(pos - size, avail);
+        uint32_t to_copy = min(size - pos, avail);
         // Read directly from storage into usb buffer.
         storage_->read(object_id, pos,
                     (char*)(data_buffer_->buf + data_buffer_->len),
