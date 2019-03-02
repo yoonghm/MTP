@@ -164,7 +164,7 @@ private:
     }
   }
 
-  void OpenFileByIndex(uint32_t i, uint8_t mode = O_RDONLY) {
+  void OpenFileByIndex(uint32_t i, oflag_t mode = O_RDONLY) {
     if (open_file_ == i && mode_ == mode)
       return;
     char filename[256];
