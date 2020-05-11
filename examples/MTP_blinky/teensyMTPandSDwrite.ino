@@ -2,7 +2,7 @@
  * 
  * Modified version of MTP Blinky that allows you to switch between MTP and SD writing with the same sketch.
  * By Jared Reabow May 2020, written for teensy 3.5/3.6
- * 
+ * Attach a switch between 3.3v and pin 23 to allow hardware switching between modes.
  * 
   */
 #define USBMODE 0
